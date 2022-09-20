@@ -1,4 +1,6 @@
-package sources.Client;
+package crc.sources.ihm;
+
+import crc.sources.client.Connexion;
 
 import javax.swing.*;
 import java.awt.event.*;
