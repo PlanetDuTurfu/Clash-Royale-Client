@@ -1,6 +1,6 @@
-package crc.sources.client;
+package sources.client;
 
-import crc.sources.ihm.Frame;
+import sources.ihm.Frame;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -30,7 +30,6 @@ public class Connexion {
                         while(msg!=null)
                         {
                             msg = in.readLine();
-                            System.out.println(msg);
                             if (msg.length() > 0)
                             {
                                 if (msg.equals("wait#pseudo#mdp"))
@@ -62,7 +61,7 @@ public class Connexion {
                 }
             });
             recevoir.start();
-        } catch (Exception e) { e.printStackTrace(); }
+        } catch (Exception e) { e.printStackTrace(); System.exit(0); }
     }
 
     public void ecrire(String s)

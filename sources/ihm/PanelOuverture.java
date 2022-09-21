@@ -1,4 +1,4 @@
-package crc.sources.ihm;
+package sources.ihm;
 
 import javax.swing.*;
 import java.awt.event.*;

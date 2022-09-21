@@ -1,7 +1,6 @@
-package crc;
 import java.net.InetAddress;
 
-import crc.sources.client.Connexion;
+import sources.client.Connexion;
 
 public class LancerClient {
     public static void main(String[] args) {

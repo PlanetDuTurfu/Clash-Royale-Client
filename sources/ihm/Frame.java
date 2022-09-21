@@ -1,6 +1,6 @@
-package crc.sources.ihm;
+package sources.ihm;
 
-import crc.sources.client.Connexion;
+import sources.client.Connexion;
 
 import java.util.ArrayList;
 import javax.swing.*;
